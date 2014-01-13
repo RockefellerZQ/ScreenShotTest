@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 ###ScreenShotTest
----
+- - -
 ####关于UIView进行3D转换之后截图的问题
----
+- - -
 在view上面添加了一个transformView，并对其进行变换
 ```objective-c
     CATransform3D transform = CATransform3DIdentity;
@@ -69,9 +68,3 @@
     UIImage *screenImage = UIGraphicsGetImageFromCurrentImageContext();
     UIImageWriteToSavedPhotosAlbum(screenImage, nil, nil, nil);
 ```
-=======
-ScreenShotTest
-==============
-
-关于UIView 3D转换后，截图的示例代码
->>>>>>> 4272cc9e89c4baeff85630c39da70bd666bfd958
