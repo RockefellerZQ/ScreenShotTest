@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ###ScreenShotTest
 ---
 ####关于UIView进行3D转换之后截图的问题
@@ -10,7 +11,6 @@
     transform = CATransform3DRotate(transform, angle, 0, 1, 0);
     self.transformView.layer.transform = transform;
 ```
-<!-- more -->
 接下来我们实现截图的代码, 一般情况下，我们会这样实现一个简单的截图功能：
 
 **方法一：**
@@ -69,3 +69,9 @@
     UIImage *screenImage = UIGraphicsGetImageFromCurrentImageContext();
     UIImageWriteToSavedPhotosAlbum(screenImage, nil, nil, nil);
 ```
+=======
+ScreenShotTest
+==============
+
+关于UIView 3D转换后，截图的示例代码
+>>>>>>> 4272cc9e89c4baeff85630c39da70bd666bfd958
